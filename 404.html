@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>DualPrint has moved</title>
+<script>
+  // MultiPrint/DualPrint moved from /dualprinter/ to /dualprint/. Keep the rest of the path.
+  (function () {
+    var p = location.pathname;
+    var m = p.match(/^\/dualprinter(\/.*)?$/i);
+    var rest = m ? (m[1] || "/") : "/";
+    location.replace("https://eslamfariedshawky.github.io/dualprint" + rest + location.search + location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="1; url=https://eslamfariedshawky.github.io/dualprint/">
+<link rel="canonical" href="https://eslamfariedshawky.github.io/dualprint/">
+</head>
+<body>
+<p>DualPrint has moved to <a href="https://eslamfariedshawky.github.io/dualprint/">eslamfariedshawky.github.io/dualprint</a>.</p>
+</body>
+</html>
